@@ -1,4 +1,6 @@
-float samples[15000][2] = {
+#define DATA_SIZE 15000
+
+float samples[DATA_SIZE][2] = {
     { 1.4 , 0.2 },
     { 1.4 , 0.2 },
     { 1.3 , 0.2 },
