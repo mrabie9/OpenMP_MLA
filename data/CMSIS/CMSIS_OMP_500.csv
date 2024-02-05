@@ -1,0 +1,30 @@
+Function Stack,Effective Time,Function (Full),Source File,Start Address,Seq,Speedup
+Total,0,[Unknown],[Unknown],[Unknown],,
+ func@0x4b2e7c23,0,func@0x4b2e7c23,[Unknown],0x4b2e7c23,,
+  func@0x4b2e7c3f,0,func@0x4b2e7c3f,[Unknown],0x4b2e7c3f,,
+   BaseThreadInitThunk,0,BaseThreadInitThunk,[Unknown],0x6b81fcb0,,
+    func@0x10166d62,0,func@0x10166d62,[Unknown],0x10166d62,,
+     func@0x10166cda,0,func@0x10166cda,[Unknown],0x10166cda,,
+      func@0x682c9a30,0,func@0x682c9a30,[Unknown],0x682c9a30,,
+       func@0x6380dc20,0,func@0x6380dc20,[Unknown],0x6380dc20,,
+        [Loop@0x6380dd60 in func@0x6380dc20],0,[Loop@0x6380dd60 in func@0x6380dc20],[Unknown],0x6380dd60,,
+       [Unknown stack frame(s)],0,[Unknown stack frame(s)],[Unknown],0,,
+   func@0x4012e0,0,func@0x4012e0,[Unknown],0x4012e0,,
+ func@0x4026f0,0,func@0x4026f0,[Unknown],0x4026f0,,
+         arm_convolve_HWC_q7_fast._omp_fn.0,0,arm_convolve_HWC_q7_fast._omp_fn.0,arm_convolve_HWC_q7_fast.c,0x401880,,
+          [Loop at line 390 in arm_convolve_HWC_q7_fast._omp_fn.0],0.0207991,[Loop at line 390 in arm_convolve_HWC_q7_fast._omp_fn.0],arm_convolve_HWC_q7_fast.c,0x4019ab,,
+           [Loop at line 391 in arm_convolve_HWC_q7_fast._omp_fn.0],0.103686,[Loop at line 391 in arm_convolve_HWC_q7_fast._omp_fn.0],arm_convolve_HWC_q7_fast.c,0x401a34,0.126301,1.218110449
+            [Loop at line 393 in arm_convolve_HWC_q7_fast._omp_fn.0],0.40916,[Loop at line 393 in arm_convolve_HWC_q7_fast._omp_fn.0],arm_convolve_HWC_q7_fast.c,0x401a50,0.291748,0.713041353
+             [Loop at line 400 in arm_convolve_HWC_q7_fast._omp_fn.0],1.23139,[Loop at line 400 in arm_convolve_HWC_q7_fast._omp_fn.0],arm_convolve_HWC_q7_fast.c,0x401a80,1.3347,1.083897059
+ arm_convolve_HWC_q7_fast._omp_fn.0,0,arm_convolve_HWC_q7_fast._omp_fn.0,arm_convolve_HWC_q7_fast.c,0x401880,,
+         arm_convolve_HWC_q7_RGB._omp_fn.0,0,arm_convolve_HWC_q7_RGB._omp_fn.0,arm_convolve_HWC_q7_RGB.c,0x4014a0,,
+          [Loop at line 264 in arm_convolve_HWC_q7_RGB._omp_fn.0],0.163742,[Loop at line 264 in arm_convolve_HWC_q7_RGB._omp_fn.0],arm_convolve_HWC_q7_RGB.c,0x4015cb,,
+           [Loop at line 265 in arm_convolve_HWC_q7_RGB._omp_fn.0],0.51366,[Loop at line 265 in arm_convolve_HWC_q7_RGB._omp_fn.0],arm_convolve_HWC_q7_RGB.c,0x401654,,
+            [Loop at line 267 in arm_convolve_HWC_q7_RGB._omp_fn.0],1.04125,[Loop at line 267 in arm_convolve_HWC_q7_RGB._omp_fn.0],arm_convolve_HWC_q7_RGB.c,0x401670,,
+ arm_convolve_HWC_q7_RGB._omp_fn.0,0,arm_convolve_HWC_q7_RGB._omp_fn.0,arm_convolve_HWC_q7_RGB.c,0x4014a0,,
+  [Loop at line 264 in arm_convolve_HWC_q7_RGB._omp_fn.0],0.00231188,[Loop at line 264 in arm_convolve_HWC_q7_RGB._omp_fn.0],arm_convolve_HWC_q7_RGB.c,0x4015cb,,
+   [Loop at line 265 in arm_convolve_HWC_q7_RGB._omp_fn.0],0.514,[Loop at line 265 in arm_convolve_HWC_q7_RGB._omp_fn.0],arm_convolve_HWC_q7_RGB.c,0x401654,0.136533,0.132858144
+    [Loop at line 267 in arm_convolve_HWC_q7_RGB._omp_fn.0],1.041,[Loop at line 267 in arm_convolve_HWC_q7_RGB._omp_fn.0],arm_convolve_HWC_q7_RGB.c,0x401670,1.40248,0.673540641
+     [Loop at line 274 in arm_convolve_HWC_q7_RGB._omp_fn.0],0.00205029,[Loop at line 274 in arm_convolve_HWC_q7_RGB._omp_fn.0],arm_convolve_HWC_q7_RGB.c,0x4016a0,,
+ arm_maxpool_q7_HWC,0,arm_maxpool_q7_HWC,arm_pool_q7_HWC.c,0x4021c0,,
+ arm_relu_q7,0,arm_relu_q7,arm_relu_q7.c,0x401460,,
